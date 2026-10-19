@@ -1,0 +1,26 @@
+{
+  "name": "erp-autimation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "headed": "playwright test --headed",
+    "heded": "playwright test --headed",
+    "login:headed": "playwright test --project=login --headed",
+    "group:headed": "playwright test --project=group --headed",
+    "menu:headed": "playwright test --project=menu --headed",
+    "hrms:headed": "playwright test --project=hrms --headed",
+    "test:report": "playwright show-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.64.1",
+    "@types/node": "^26.6.5",
+    "dotenv": "^18.0.8"
+  }
+}
